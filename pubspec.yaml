@@ -1,0 +1,37 @@
+name: iqra_portfolio
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  cupertino_icons: ^1.0.8
+  
+  # ADD YOUR NEW DEPENDENCIES HERE:
+  google_fonts: ^6.2.1 # For professional typography
+  animate_do: ^3.3.4   # For smooth entry animations
+  url_launcher: ^6.3.3
+  visibility_detector: ^0.4.0+2
+  font_awesome_flutter: 11.0.0
+  http: ^1.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Assets added correctly under the flutter section
+  assets:
+    - assets/DermaScanAI Project.png
+    - assets/profile.png.png
