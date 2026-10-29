@@ -1,17 +1,21 @@
-# iqra_portfolio
+# Iqra Pervez Portfolio
 
-A new Flutter project.
+A responsive Flutter web portfolio showcasing software development experience, projects, skills, and contact information.
 
-## Getting Started
+## Deploy with Vercel
 
-This project is a starting point for a Flutter application.
+This repository includes `vercel.json` with the Flutter web install and build commands. To publish:
 
-A few resources to get you started if this is your first Flutter project:
+1. Import this GitHub repository at [vercel.com/new](https://vercel.com/new).
+2. Keep the project root set to `./` and use the default settings from `vercel.json`.
+3. Select **Deploy**. Vercel builds the Flutter web app and publishes `build/web`.
+4. Copy the deployment URL and add it to LinkedIn under **Featured → Add a link**.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Future pushes to the connected GitHub branch will trigger new deployments automatically.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Run locally
+
+```sh
+flutter pub get
+flutter run -d chrome
+```
